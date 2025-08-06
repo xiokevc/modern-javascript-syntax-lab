@@ -57,9 +57,27 @@ const car = {
 
 // Your code here:
 
-// a. Destructure to create variables `make` and `model`
+// a
 const { make, model } = car;
 
-// b. Console log the variables
+// b
 console.log(make);
 console.log(model);
+
+// ! Exercise 4: 
+// a. Duplicate the provided `morePizzaToppings` array using the spread 
+//    operator and assign it to a variable named `uncontroversialPizzaToppings`.
+// 
+// b. Console log the `uncontroversialPizzaToppings` variable.
+//
+// Starting code (don't modify this):
+
+const morePizzaToppings = ['Cheese', 'Sauce'];
+
+// Your code here:
+
+// a
+const uncontroversialPizzaToppings = [...morePizzaToppings];
+
+// b
+console.log(uncontroversialPizzaToppings);

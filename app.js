@@ -110,3 +110,43 @@ const myCar = {
 // c
 console.log(anotherCar);
 console.log(myCar);
+
+// ! Exercise 6:
+// a. Define a variable named `propertyName` and assign a string (like 
+//    'username', 'age', or 'email') to it.
+// 
+// b. Create an object named `userProfile`. 
+// 
+// c. Use `propertyName` as a dynamic key in `userProfile`. Assign it a 
+//    relevant value.
+//
+// d. Console log the `userProfile` object to see the result.
+//
+// Your code here:
+
+// a
+const propertyName = 'email';
+
+// b
+const userProfile = {
+
+// c
+  [propertyName]: 'user@example.com'
+};
+
+// d
+console.log(userProfile);
+
+// ! Exercise 8:
+// a. Create a function with two parameters, `noun` and `adjective`.
+// 
+// b. Give `noun` a default value of "cat" and `adjective` a default value of 
+//    "orange".
+//
+// c. The function should log a sentence 'The cat is orange.' by default, but 
+//    should substitute the appropriate parameters when it is supplied with 
+//    arguments.
+//
+// Your code here:
+
+

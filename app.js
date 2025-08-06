@@ -224,4 +224,17 @@ console.log(theme);
 // Simulated user theme preference (change this variable to test)
 const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
 
+// ! Exercise 11:
+// a. Use optional chaining in a console.log so that a console log of
+//    `adventurer.cat.age` returns `undefined` instead of an error.
+//
+// Starting code (don't modify this):
 
+const adventurer = {
+  name: 'Alice',
+};
+
+// Your code here:
+
+// a
+console.log(adventurer.cat?.age);

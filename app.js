@@ -149,4 +149,9 @@ console.log(userProfile);
 //
 // Your code here:
 
+// a & b
+function describeAnimal(noun = 'cat', adjective = 'orange') {
 
+  // c
+  console.log(`The ${noun} is ${adjective}.`);
+};
